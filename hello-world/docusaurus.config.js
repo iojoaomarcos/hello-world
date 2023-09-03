@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: '@iojoaomarcos',
+  tagline: 'Seja bem-vindo ao meu mundo das ideias 😄',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -28,8 +28,8 @@ const config = {
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: 'pt-br',
+    locales: ['pt-br', 'en'],
   },
 
   presets: [
@@ -64,7 +64,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: '@iojoaomarcos',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -82,6 +82,10 @@ const config = {
             label: 'GitHub',
             position: 'right',
           },
+          {
+            type: 'localeDropdown',
+            position: 'right'
+          },
         ],
       },
       footer: {
@@ -97,19 +101,19 @@ const config = {
             ],
           },
           {
-            title: 'Community',
+            title: 'Social Media',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'Linked in',
+                href: 'https://www.linkedin.com/in/joaomarcossantos',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: 'Instagram',
+                href: 'https://www.instagram.com/iojoaomarcos/',
               },
               {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                label: 'Twitter/X (deprecated)',
+                href: 'https://twitter.com/iojoaomarcos',
               },
             ],
           },
@@ -127,7 +131,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} João Marcos Santos.`,
       },
       prism: {
         theme: lightCodeTheme,
