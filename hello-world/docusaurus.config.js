@@ -70,18 +70,19 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
-          {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'Tutorial',
-          },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right',
+            type: 'docSidebar',
+            sidebarId: 'mscSidebar',
+            position: 'left',
+            label: 'MSc. Unicamp',
           },
+          
+          // {
+          //   href: 'https://github.com/facebook/docusaurus',
+          //   label: 'GitHub',
+          //   position: 'right',
+          // },
           {
             type: 'localeDropdown',
             position: 'right'
@@ -98,6 +99,10 @@ const config = {
                 label: 'Tutorial',
                 to: '/docs/intro',
               },
+              {
+                label: 'MSc Unicamp',
+                to: '/docs/msc',
+              }
             ],
           },
           {
@@ -126,7 +131,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/iojoaomarcos',
               },
             ],
           },
